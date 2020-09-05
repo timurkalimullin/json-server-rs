@@ -1,0 +1,16 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "json-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "TK",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}

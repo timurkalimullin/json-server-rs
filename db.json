@@ -1,0 +1,96 @@
+{
+  "tasks": [{
+      "id": "Cv64hsj",
+      "taskName": "simple-task-v1",
+      "description": "simple-task-v1 description",
+      "author": "author",
+      "state": "DRAFT",
+      "startTime": "2020-09-25",
+      "endTime": "2020-09-26",
+      "items": [{
+        "id": "basic_p1",
+        "minScore": 0,
+        "maxScore": 20,
+        "category": "Basic Scope",
+        "title": "Basic things",
+        "description": "You need to make things right, not wrong"
+      }, {
+        "id": "extra_p1",
+        "minScore": 0,
+        "maxScore": 30,
+        "category": "Extra Scope",
+        "title": "More awesome things",
+        "description": "Be creative and make up some more awesome things"
+      }, {
+        "id": "fines_p1",
+        "minScore": -10,
+        "maxScore": 0,
+        "category": "Fines",
+        "title": "App crashes",
+        "description": "App causes BSoD!"
+      }]
+    },
+    {
+      "id": "rt14hsc",
+      "taskName": "medium-task-v1",
+      "author": "another author",
+      "description": "medium-task-v1 description",
+      "state": "COMPLETE",
+      "startTime": "2020-09-23",
+      "endTime": "2020-09-23",
+      "items": [{
+        "id": "basic_p1",
+        "minScore": 0,
+        "maxScore": 20,
+        "category": "Basic Scope",
+        "title": "Basic things",
+        "description": "You need to do the scope needs"
+      }, {
+        "id": "extra_p1",
+        "minScore": 0,
+        "maxScore": 30,
+        "category": "Extra Scope",
+        "title": "More awesome things",
+        "description": "Do it for points"
+      }, {
+        "id": "fines_p1",
+        "minScore": -10,
+        "maxScore": 0,
+        "category": "Fines",
+        "title": "App crashes",
+        "description": "Penalty!"
+      }]
+    },
+    {
+      "id": "7j64fgL",
+      "taskName": "hard-task-v2",
+      "author": "batman bin suparman",
+      "description": "medium-task-v1 description",
+      "state": "DRAFT",
+      "startTime": "2020-09-23",
+      "endTime": "2020-09-23",
+      "items": [{
+        "id": "basic_p1",
+        "minScore": 0,
+        "maxScore": 20,
+        "category": "Basic Scope",
+        "title": "Basic things",
+        "description": "Simple things"
+      }, {
+        "id": "extra_p1",
+        "minScore": 0,
+        "maxScore": 30,
+        "category": "Extra Scope",
+        "title": "More awesome things",
+        "description": "Not so easy"
+      }, {
+        "id": "fines_p1",
+        "minScore": -10,
+        "maxScore": 0,
+        "category": "Fines",
+        "title": "App crashes",
+        "description": "App booms!"
+      }]
+    }
+  ]
+}
