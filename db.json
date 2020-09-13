@@ -92,5 +92,28 @@
         "description": "App booms!"
       }]
     }
+  ],
+  "requestsReview": [{
+      "id": "1",
+      "crossCheckSessionId": "crossCheckSession1",
+      "author": "Anastasya",
+      "task": "task1",
+      "state": "DRAFT",
+      "selfGrade": {}
+    },{
+      "id": "2",
+      "crossCheckSessionId": "crossCheckSession2",
+      "author": "Pavel",
+      "task": "task2",
+      "state": "PUBLISHED",
+      "selfGrade": {}
+    },{
+      "id": "3",
+      "crossCheckSessionId": "crossCheckSession3",
+      "author": "Dmitry",
+      "task": "task3",
+      "state": "COMPLETED",
+      "selfGrade": {}
+    }
   ]
 }
