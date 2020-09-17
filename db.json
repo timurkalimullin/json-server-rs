@@ -35,7 +35,7 @@
       "taskName": "medium-task-v1",
       "author": "another author",
       "description": "medium-task-v1 description",
-      "state": "COMPLETE",
+      "state": "PUBLISHED",
       "startTime": "2020-09-23",
       "endTime": "2020-09-23",
       "items": [{
@@ -94,26 +94,44 @@
     }
   ],
   "requestsReview": [{
-      "id": "1",
-      "crossCheckSessionId": "crossCheckSession1",
-      "author": "Anastasya",
-      "task": "task1",
-      "state": "DRAFT",
-      "selfGrade": {}
-    },{
-      "id": "2",
-      "crossCheckSessionId": "crossCheckSession2",
-      "author": "Pavel",
-      "task": "task2",
-      "state": "PUBLISHED",
-      "selfGrade": {}
-    },{
-      "id": "3",
-      "crossCheckSessionId": "crossCheckSession3",
-      "author": "Dmitry",
-      "task": "task3",
-      "state": "COMPLETED",
-      "selfGrade": {}
+    "id": "1",
+    "crossCheckSessionId": "crossCheckSession1",
+    "author": "Anastasya",
+    "task": "task1",
+    "state": "DRAFT",
+    "selfGrade": {}
+  }, {
+    "id": "2",
+    "crossCheckSessionId": "crossCheckSession2",
+    "author": "Pavel",
+    "task": "task2",
+    "state": "PUBLISHED",
+    "selfGrade": {}
+  }, {
+    "id": "3",
+    "crossCheckSessionId": "crossCheckSession3",
+    "author": "Dmitry",
+    "task": "task3",
+    "state": "COMPLETED",
+    "selfGrade": {}
+  }],
+  "users": [{
+      "id": "hu8r7D",
+      "userName": "kolyan.fomin@gmail.com",
+      "password": "slojniy",
+      "role": "STUDENT"
+    },
+    {
+      "id": "1NKrP0",
+      "userName": "johndoe@gmail.com",
+      "password": "johndoe",
+      "role": "MENTOR"
+    },
+    {
+      "id": "vU87IQ",
+      "userName": "superman@gmail.com",
+      "password": "superman",
+      "role": "EXTENDED"
     }
   ]
 }
